@@ -1,0 +1,20 @@
+div#main div#header {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+div#main div#header img {
+    width: 150px;
+}
+
+div#main div#header h1 {
+    font-family: "Oswald";
+}
+
+div#main div#body p{
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 22px;
+    padding-top: 10px;
+}
