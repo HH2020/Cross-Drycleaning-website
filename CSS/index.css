@@ -1,3 +1,16 @@
+div#main {
+    margin-top: 20px;
+    width: 100%;
+}
+
+div#main div#body {
+    background: #c9c9c9;
+    height: 100%;
+    width: 95%;
+    margin: 0 auto 70px auto;
+    border-radius: 20px;
+}
+
 div#main div#header {
     text-align: center;
     margin: 0 auto;
@@ -5,16 +18,72 @@ div#main div#header {
 }
 
 div#main div#header img {
-    width: 150px;
-}
-
-div#main div#header h1 {
-    font-family: "Oswald";
+    width: 400px;
 }
 
 div#main div#body p{
     text-align: center;
     font-family: "Poppins";
-    font-size: 22px;
+    font-size: 23px;
+}
+
+div#main div#body div#listing {
     padding-top: 10px;
+}
+
+div#main div#body div#listing h1 {
+    font-family: "Poppins";
+    text-align: center;
+}
+
+div#main div#body div#listing a.llinks {
+    text-decoration: underline;
+    color: darkblue;
+    font-weight: bold;
+}
+
+div#main div#body div#listing a.llinks:hover {
+    color: blue;
+}
+
+div#main div#body div#listing h1.title {
+    text-decoration: underline;
+}
+
+div#main div#body div#listing .space1{
+    margin: 0;
+    padding: 0;
+}
+
+div#main div#body div#listing .space2{
+    margin-bottom: 30px;
+}
+
+div#main img#logo{
+    position: relative;
+    height: 200px;
+    margin: 20px auto;
+}
+
+div#main div#logoc {
+    text-align: center;
+}
+
+div#main div#logoc h1 {
+    font-family: "Cabin";
+    text-decoration: underline;
+    font-size: 3em;
+}
+
+div#main div#body div#mloc {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+div#main div#body div#mloc img#loc {
+    position: relative;
+    border-radius: 30px;
+    width: 500px;
+    margin: 15px 0 0 0;
 }

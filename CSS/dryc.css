@@ -1,0 +1,73 @@
+div#main {
+    margin-top: 80px;
+    width: 100%;
+}
+
+div#main div#body {
+    background: #c9c9c9;
+    width: 95%;
+    margin: 0 auto 70px auto;
+    border-radius: 20px;
+}
+
+div#body .desc {
+    width: 95%;
+    margin: 30px auto;
+}
+
+div#main div#body .desc img {
+    width: 700px;
+    border-radius: 30px;
+    margin: 20px 20px;
+    float: left;
+}
+
+div#main div#body .desc {
+    overflow: auto;
+    border-radius: 15px;
+    background: #f9f9f9;
+}
+
+div#main div#body div#des1 {
+    border-radius: 0 0 15px 15px;
+}
+
+div#main div#body div.f-right img {
+    float: right;
+}
+
+div#main div#body div#des3 {
+    margin: 40px auto;
+}
+
+div#main div#body div#des5 {
+    border-radius: 15px 15px 0 0;
+}
+
+div#main div#body .desc p{
+    font-family: "roboto";
+    font-size: 1.5em;
+    margin: 0 40px;
+    margin-top:  20px;
+}
+
+div#main div#body .desc h1{
+    font-family: "roboto";
+    margin: 0 40px;
+    margin-top:  20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+div#main div#body .line {
+    background: black;
+    height: 4px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+div#main div#body div#des3 div#con-head3 h1 {
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+div#main {
+    margin-top: 80px;
+    width: 100%;
+}
+
+div#main div#body {
+    background: #c9c9c9;
+    width: 95%;
+    margin: 0 auto 100px auto;
+    border-radius: 20px;
+}
+
+div#main div#body p.space1{
+    font-family: "roboto";
+    position: relative;
+    left: 20px;
+}
+
+div#main div#body p.space2{
+    margin-bottom: 30px;
+}
+
+div#main div#body p {
+    font-size: 30px;
+}
+
+div#main div#body div#ccdc {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+div#main div#body div#ccdc img#cdc {
+    position: relative;
+    border-radius: 30px;
+    width: 500px;
+    margin: 15px 0 0 0;
+}

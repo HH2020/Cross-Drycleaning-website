@@ -1,0 +1,77 @@
+div#main {
+    margin-top: 80px;
+    width: 100%;
+}
+
+div#main div#body {
+    background: #c9c9c9;
+    height: 100%;
+    width: 95%;
+    margin: 0 auto 250px auto;
+    border-radius: 20px;
+    padding-bottom: 50px;
+}
+
+div#main div#body div#top {
+    padding-top: 30px;
+    width: 100%;
+    height: 500px;
+}
+
+div#main div#body div#top div.holding {
+    width: 400px;
+    top: 0;
+}
+
+div#main div#body div#top div#openh {
+    width: 400px;
+    max-width: 400px;
+    margin: 0 0 0 30%;
+    height: 500px;
+    position: relative;
+    float: left;
+}
+
+div#main div#body div#openh div.time {
+    font-size: 25px;
+    font-family: "roboto";
+    position: relative;
+    text-align: center;
+    height: 50px;
+}
+
+div#main div#body div#openh div.cline {
+    display: inline-block;
+    position: relative;
+    width: 130px;
+}
+
+div#main div#body div#openh div.dtime {
+    font-weight: bold;
+}
+
+div#main div#body div#openh div#dtitle h2{
+    margin: 0;
+    padding: 0;
+}
+
+div#main div#body div#top div#contacti {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    border: solid black 2px;
+    position: relative;
+    float: right;
+}
+
+div#main div#body div#top div#contacti h1{
+    text-align: center;
+    font-family: "roboto";
+}
+
+div#main div#body div#top div#contacti p{
+    font-size: 25px;
+    text-align: center;
+    font-family: "roboto";
+}
