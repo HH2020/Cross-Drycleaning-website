@@ -9,7 +9,6 @@ var nbutton = document.getElementsByClassName('nbutton');
 var trans = 0;
 var peek;
 var peekv;
-var peekc;
 var hclose;
 
 /*****************
@@ -17,19 +16,19 @@ Functions
 *****************/
 
 function button_open() {
-    header.style.borderLeft = "35px solid #007bff";
+    header.style.borderLeft = "60px solid #004C75";
     htitle.style.opacity = '1';
-    htitle.style.left = '-23px';
-    hbutton.style.width = '35px';
-    hbutton.style.left = '-35px';
+    htitle.style.left = '-36px';
+    hbutton.style.width = '60px';
+    hbutton.style.left = '-60px';
 }
 
 function button_close() {
-    header.style.borderLeft = "20px solid #007bff";
+    header.style.borderLeft = "35px solid #004C75";
     htitle.style.opacity = '0';
     htitle.style.left = '-14px';
-    hbutton.style.width = '20px';
-    hbutton.style.left = '-20px';
+    hbutton.style.width = '30px';
+    hbutton.style.left = '-30px';
 }
 
 function button_click() {
@@ -70,14 +69,26 @@ hbutton.onmouseout = function() {
     }
 };
 
+
 peek = setTimeout(function() {
     header.style.right = '-300px';
     button_open();
-    peekc = setTimeout(function() {
+    peek = setTimeout(function() {
         header.style.right = '-350px';
         button_close();
-    },1000);
+    },2000);
 }, 3000);
+
+setInterval(function()  {
+    peek = setTimeout(function() {
+        header.style.right = '-300px';
+        button_open();
+        peek = setTimeout(function() {
+            header.style.right = '-350px';
+            button_close();
+        },2000);
+    }, 3000);
+}, 120000);
 
 header.onmouseover = function() {
     if (trans == 1) {
